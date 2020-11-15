@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Ajouter des éléments au RecyclerView.
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 40; i++) {
             mWordList.addLast("Element " + i);
         }
 
