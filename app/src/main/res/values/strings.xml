@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecyclerApp</string>
+    <string name="action_settings1">Settings</string>
+    <string name="action_settings2">Contact</string>
+
+    <string name="action_settings3">About us</string>
+
+    <string name="action_settings4">Profile</string>
+</resources>
