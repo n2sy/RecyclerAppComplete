@@ -52,7 +52,7 @@ public class WordListAdapter extends
     @Override
     public WordListAdapter.WordViewHolder onCreateViewHolder(ViewGroup parent,
                                                              int viewType) {
-        // Inflate an item view.
+        // Inflater un view avec le layout déjà créé
         View mItemView = LayoutInflater.from(parent.getContext()).inflate(
                 R.layout.wordlist_item, parent, false);
         return new WordViewHolder(mItemView, this);
@@ -64,9 +64,9 @@ public class WordListAdapter extends
     @Override
     public void onBindViewHolder(WordListAdapter.WordViewHolder holder,
                                  int position) {
-        // Retrieve the data for that position.
+        // Récupérer l'élément qui doit etre affiché et chargé dans le ViewHolder
         String mCurrent = mWordList.get(position);
-        // Add the data to the view holder.
+        // Ajouter l'élément au ViewHolder
         holder.wordItemView.setText(mCurrent);
     }
 
