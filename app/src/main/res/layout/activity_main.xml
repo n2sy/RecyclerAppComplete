@@ -29,9 +29,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginStart="330dp"
-        android:layout_marginTop="580dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="490dp"
         app:srcCompat="@drawable/ic_add_for_fab" />
 
 </RelativeLayout>

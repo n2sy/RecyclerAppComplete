@@ -15,7 +15,8 @@ public class WordListAdapter extends
 
     //Préparer la structure qui contiendra les éléments de notre liste
     private final LinkedList<String> mWordList;
-    private final LayoutInflater mInflater;
+    //private final LayoutInflater mInflater;
+
 
     class WordViewHolder extends RecyclerView.ViewHolder
             implements View.OnClickListener {
@@ -43,8 +44,9 @@ public class WordListAdapter extends
     }
 
     public WordListAdapter(Context context, LinkedList<String> wordList) {
-        mInflater = LayoutInflater.from(context);
         this.mWordList = wordList;
+        //mInflater  = LayoutInflater.from(context);
+
     }
 
     //Appelée au moment de la création du ViewHolder qui affichera
